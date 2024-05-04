@@ -4,11 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Intro to Web</title>
+    <!-- Style tag or internal styling -->
+    <style>
+        h2 {
+            color: cornflowerblue;
+        }
+    </style>
+    <!-- the href path should be in relation to where the index file is in comparison to where the "style" file is located -->
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <header>
         <h1>HTML & CSS intro</h1>
-        <h2>Let's learn about tags!</h2>
+        <!-- this is inline styling (comment) -->
+        <h2 style="color: yellow; background-color: brown;">Let's learn about tags!</h2>
+        <!-- Note that inline styling takes precedence over internal styling as seen with h2 above vs below -->
+        <h2>Another tag about learning tags</h2>
     </header>
     <article>
         <p>Lorem ipsum dolor sit amet, <b>consectetur</b> adipisicing elit. Sequi doloribus <strong>corrupti</strong> animi, dignissimos natus laboriosam facilis possimus rem incidunt tempora velit totam ex commodi aut dolore officia at accusantium? Ea.
